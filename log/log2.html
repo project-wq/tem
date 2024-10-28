@@ -1,0 +1,114 @@
+<html>
+ <head>
+  <title>
+   Login Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 375px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #ff5a5f;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .header img {
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+        }
+        .form-container {
+            padding: 20px;
+            text-align: center;
+        }
+        .form-container h2 {
+            margin: 0 0 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .form-container .input-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .form-container .input-group input {
+            width: calc(100% - 40px);
+            padding: 10px 20px 10px 40px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            font-size: 16px;
+        }
+        .form-container .input-group i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+        }
+        .form-container .btn {
+            background-color: #ff5a5f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-container .btn:hover {
+            background-color: #e04e4e;
+        }
+        .form-container .forgot-password {
+            margin-top: 15px;
+            color: #999;
+            font-size: 14px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <img alt="Illustration of gift boxes and a clock" height="200" src="https://storage.googleapis.com/a1aa/image/svA9sLvk8RJPPt7lIldZ3xhggaxZpfUaOF3EqqNI7Ts2Ir1JA.jpg" width="375"/>
+   </div>
+   <div class="form-container">
+    <h2>
+     登录
+    </h2>
+    <div class="input-group">
+     <i class="fas fa-user">
+     </i>
+     <input placeholder="请输入用户名" type="text"/>
+    </div>
+    <div class="input-group">
+     <i class="fas fa-lock">
+     </i>
+     <input placeholder="请输入密码" type="password"/>
+    </div>
+    <button class="btn">
+     登 录
+    </button>
+    <div class="forgot-password">
+     忘记密码？
+     <a href="#">
+      立即找回
+     </a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
